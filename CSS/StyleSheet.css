@@ -43,4 +43,30 @@ ul
 	top: 2vw;
 }
 
+#sliderImage1{
+	position: absolute;
+	left: 3vw;
+	right: 3vw;
+	width: 94vw;
+	height: auto;
+	top:10vw;
+}
+#Pre-BuiltBike
+{
+	position: absolute;
+	left: 3vw;
+	width: 45vw;
+	height: auto;
+	top: 50vw;
+}
+#customBike
+{
+	position: absolute;
+	right: 3vw;
+	width: 45vw;
+	height: auto;
+	top: 50vw;
+	
+	
 
+}
