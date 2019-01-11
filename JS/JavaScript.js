@@ -5,6 +5,7 @@ carousel();
 }
 function init(){
  console.log('init fired');
+ //Console.log('the video is linked the the logo in the top right on the home page');
 
 }
 var myIndex = 0;
