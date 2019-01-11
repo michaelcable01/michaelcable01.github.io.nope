@@ -1,0 +1,75 @@
+body {
+	background-color: white;
+}
+p{
+font-family: "bell-MT", bell-MT, serif;}
+
+
+	
+li{
+	float: right;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1.8vw 25px;
+}
+li a:hover
+{
+	background-color: #999999;
+}
+ul 
+{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000;
+	}
+	
+#nav{
+	position:absolute;
+	right: 3vw;
+	top: 2vw;	
+}
+#main{
+	position: absolute;
+	left: 3vw;
+	right: 3vw;
+	width: 94vw;
+}
+#Logo{
+	position: absolute;
+	left:3vw;
+	height: 6vw;
+	width: auto;
+	top: 2vw;
+}
+
+#sliderImage1{
+	position: absolute;
+	width:auto;
+	height: auto;
+	top:10vw;
+}
+#Pre-BuiltBike
+{
+	position: absolute;
+	left: 3vw;
+	width: 45vw;
+	height: auto;
+	top: 50vw;
+}
+#customBike
+{
+	position: absolute;
+	right: 3vw;
+	width: 45vw;
+	height: auto;
+	top: 50vw;
+	
+	
+
+}

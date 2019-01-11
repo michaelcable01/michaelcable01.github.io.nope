@@ -1,11 +1,33 @@
 body {
 	background-color: white;
+	font-family: "bell-MT", bell-MT, serif;
+	font-size: 20px;
 }
 p{
-font-family: "bell-MT", bell-MT, serif;}
-
-
+font-family: "bell-MT", bell-MT, serif;
+font-size: 20px;
+}
+h1{
+	text-decoration: none;
+font-family: "bell-MT", bell-MT, serif;
+font-size: 30px;
+}
+h2{
+	text-decoration: none;
+font-family: "bell-MT", bell-MT, serif;
+font-size: 25px;
+}
+a{
+	text-decoration: none;
 	
+}
+
+#links img{
+	padding:2px;
+}
+#links img:hover{
+	padding:0px;
+}
 li{
 	float: right;
 }
@@ -32,41 +54,125 @@ ul
 #nav{
 	position:absolute;
 	right: 3vw;
-	top: 2vw;
-	
+	top: 2vw;	
 }
+
 #Logo{
 	position: absolute;
 	left:3vw;
-	height: 6vw;
-	width: auto;
 	top: 2vw;
+	height: 6vw;
+	width: auto;	
 }
-
-#sliderImage1{
+img{
+	width:100%;
+	height:auto;
+}
+#main{
 	position: absolute;
 	left: 3vw;
 	right: 3vw;
 	width: 94vw;
-	height: auto;
-	top:10vw;
+	top:9vw;
 }
-#Pre-BuiltBike
-{
-	position: absolute;
-	left: 3vw;
-	width: 45vw;
-	height: auto;
-	top: 50vw;
-}
-#customBike
-{
-	position: absolute;
-	right: 3vw;
-	width: 45vw;
-	height: auto;
-	top: 50vw;
-	
-	
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
 }
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: white;
+  border: 1px solid rgba(0,0,0,1);
+  padding: 20px;
+  height:auto;
+  transition: width 2s;
+}
+
+.grid-item:hover {
+	background-color:LightGray;
+	padding:10px;
+	
+}
+#left{
+	float: left;
+	width:24vw;
+}
+.ProdViewer
+{
+	float:left;
+	width:50%;
+	height:auto;
+}
+#AboutUs
+{
+	float: right;
+	width: 40vw;
+	height:auto;
+	padding: 10px;
+}
+#menu{
+	
+	background-color: black;
+	float: left;
+	padding: 10px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: white;
+  color:black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+}
+
+
+.dropdown-content button {
+  background:none;
+     color:inherit;
+     padding: 10px;; 
+     padding:0!;
+     font: inherit;
+      
+    
+}
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.show {display:block;}
+	
+#image
+{
+	float:right;
+	width: 60vw;
+	height: auto;
+}
+
